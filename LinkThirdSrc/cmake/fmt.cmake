@@ -8,5 +8,5 @@ FetchContent_Declare(
 FetchContent_GetProperties(fmt)
 if (NOT fmt_POPULATED)
     FetchContent_Populate(fmt)
-    #add_subdirectory(${fmt_SOURCE_DIR} ${fmt_BINARY_DIR})
+    add_subdirectory(${fmt_SOURCE_DIR} ${fmt_BINARY_DIR})
 endif ()
